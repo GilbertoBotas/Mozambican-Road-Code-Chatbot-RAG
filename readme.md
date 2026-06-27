@@ -174,8 +174,7 @@ Response:
   "articles": ["Artigo 45 - Limites de Velocidade"],
   "follow_up_questions": [
     "Qual é o limite de velocidade nas rodovias?"
-  ],
-  "requires_human_agent": false
+  ]
 }
 ```
 
