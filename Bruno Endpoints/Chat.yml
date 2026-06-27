@@ -1,0 +1,21 @@
+info:
+  name: Chat
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: "{{base_url}}/chat"
+  body:
+    type: json
+    data: |-
+      {
+        "question": "Que meios de transporte nao preciso ter uma carta de conducao para conduzir?"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
